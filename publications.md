@@ -2,7 +2,7 @@
 ---
 layout: default
 title: Publications
-permalink: /
+permalink: /publications/
 ---
 
 ## Publications

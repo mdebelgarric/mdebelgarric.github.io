@@ -1,0 +1,78 @@
+/* --- Variables de couleurs et polices --- */
+:root {
+    --bg-color: #fafafa;         /* Fond légèrement cassé, plus doux que le blanc pur */
+    --text-color: #222222;       /* Noir adouci pour le confort visuel */
+    --accent-color: #1b4332;     /* Vert forêt profond (ta couleur d'accent) */
+    --border-color: #e5e5e5;     /* Gris clair pour les séparations discrètes */
+    
+    --font-serif: 'Newsreader', Georgia, serif;
+    --font-sans: 'Inter', -apple-system, sans-serif;
+  }
+  
+  /* --- Base de la page --- */
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Alignement et largeur maximale pour un confort de lecture optimal */
+  main, header, footer {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* --- Titres --- */
+  h1, h2, h3 {
+    font-family: var(--font-serif);
+    color: var(--text-color);
+    font-weight: 500;
+    margin-top: 1.8em;
+  }
+  
+  h1 {
+    font-size: 2.2rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.3em;
+  }
+  
+  /* --- Menu de navigation --- */
+  header {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 2rem;
+  }
+  
+  nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin-right: 1.5rem;
+    font-size: 0.95rem;
+    font-weight: 400;
+  }
+  
+  nav a:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+  }
+  
+  /* --- Liens & Boutons --- */
+  a {
+    color: var(--accent-color);
+    text-decoration: underline;
+  }
+  
+  /* --- Footer --- */
+  footer {
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    border-top: 1px solid var(--border-color);
+    font-size: 0.85rem;
+    color: #777;
+  }

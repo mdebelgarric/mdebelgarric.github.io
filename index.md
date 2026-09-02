@@ -99,4 +99,4 @@ You can download my updated CV here:
   <p id="message"></p>
 </div>
 
-<script src="{{ '/assets/js/daily-game.js' | relative_url }}"></script>
+<script src="/assets/js/daily-game.js"></script>

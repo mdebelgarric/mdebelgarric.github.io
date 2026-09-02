@@ -1,7 +1,4 @@
-/* =========================================================
-   1) LA LISTE DE MOTS
-   ========================================================= */
-   const WORDS = [
+const WORDS = [
     "EVOLUTION", "GAMMARID", "MODELLING", "DYNAMIC", "ENERGY",
     "BUDGET", "MODELS", "TRAITS", "SURVIVAL", "TOXICANT",
     "ENVIRONMENT", "TEMPERATURE", "GLOBAL", "CLIMATE"

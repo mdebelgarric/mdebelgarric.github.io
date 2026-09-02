@@ -59,9 +59,9 @@ You can download my updated CV here:
     color: #21261F;
     background: #FBFAF6;
   }
-  .tile.correct { background: #2F5D50; border-color: #2F5D50; color: #fff; }
-  .tile.present { background: #B08947; border-color: #B08947; color: #fff; }
-  .tile.absent  { background: #C9C4B5; border-color: #C9C4B5; color: #21261F; }
+  .tile.correct { background: #571487; border-color: #571487; color: #fff; }
+  .tile.present { background: #28c7a4; border-color: #28c7a4; color: #fff; }
+  .tile.absent  { background: #ffe3f8; border-color: #ffe3f8; color: #21261F; }
   
   #input-row {
     display: flex;
@@ -88,7 +88,7 @@ You can download my updated CV here:
 
 <div class="game-card">
   <h3>Word of the day</h3>
-  <p class="game-subtitle"><strong>How to play:</strong> Guess the hidden word in 6 tries. Dark tiles mean the letter is in the right spot, light tiles mean it's in the word but misplaced, and grey tiles mean it's not in the word.</p>
+  <p class="game-subtitle"><strong>How to play:</strong> Guess the hidden word in 6 tries. The word is related to my research topic. Dark (purple) tiles mean the letter is in the right spot, light green tiles mean it's in the word but misplaced, and light pink tiles mean it's not in the word.</p>
 
   <div id="grid"></div>
 

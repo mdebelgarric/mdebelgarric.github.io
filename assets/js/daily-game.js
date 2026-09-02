@@ -1,7 +1,8 @@
 const WORDS = [
     "EVOLUTION", "GAMMARID", "MODELLING", "DYNAMIC", "ENERGY",
     "BUDGET", "MODELS", "TRAITS", "SURVIVAL", "TOXICANT",
-    "ENVIRONMENT", "TEMPERATURE", "GLOBAL", "CLIMATE"
+    "ENVIRONMENT", "TEMPERATURE", "GLOBAL", "CLIMATE", "DAPHNIA",
+    "IMPACT", "TESTS", "METALS", "PESTICIDE"
   ];
   
   /* =========================================================

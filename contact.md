@@ -1,4 +1,3 @@
-```markdown
 ---
 layout: default
 title: Contact
@@ -25,4 +24,3 @@ UCB Lyon 1 - Bât. Grégor Mendel
 - **ORCID**: [0000-0002-8454-4712](https://orcid.org/0000-0002-8454-4712)
 - **Google Scholar**: [Google Scholar Profile](https://scholar.google.com/citations?user=lFae1qQAAAAJ&hl=fr)
 - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/melanie-debelgarric/)
-```

@@ -1,4 +1,3 @@
-```markdown
 ---
 layout: default
 title: Home
@@ -18,6 +17,3 @@ You can download my updated CV here:
 <p style="margin-top: 1.5rem;">
   <a href="{{ '/cv.pdf' | relative_url }}" target="_blank" style="padding: 8px 16px; background-color: #1b4332; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem;">📄 Download CV (PDF)</a>
 </p>
-
-
-```

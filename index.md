@@ -7,7 +7,7 @@ permalink: /
 
 # Mélanie Debelgarric
 
-Welcome on my website. I'm currently a post-doctoral researcher at the LBBE in Lyon (France)
+Welcome on my website. I'm currently a post-doctoral researcher at the LBBE in Lyon (France).
 
 ## Presentation
 

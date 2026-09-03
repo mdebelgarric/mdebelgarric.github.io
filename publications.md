@@ -49,7 +49,7 @@ permalink: /publications/
     content: '';
     position: absolute;
     width: 3px;
-    background-color: #B7B29E;
+    background-color: rgb(85, 71, 84);
     top: 0;
     bottom: 0;
     left: 40px;
@@ -77,7 +77,7 @@ permalink: /publications/
     justify-content: center;
     font-size: 0.75rem;
     font-weight: bold;
-    border: 2px solid #000000;
+    border: 2px solid rgb(85, 71, 84)
     box-shadow: 0 2px 5px rgba(0,0,0,0.15);
     z-index: 2;
     cursor: pointer;
@@ -98,7 +98,7 @@ permalink: /publications/
   /* Contenu de base (Date et événement) */
   .timeline-date {
     font-weight: bold;
-    color: rgb(12, 2, 12);
+    color: rgb(212, 91, 212);
     font-size: 0.9rem;
   }
 
@@ -116,7 +116,7 @@ permalink: /publications/
     top: 30px;
     width: 320px;
     background: #FBFAF6;
-    border: 1px solid rgb(123, 230, 189);
+    border: 1px solid rgb(219, 180, 224);
     border-radius: 6px;
     padding: 12px 16px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.12);

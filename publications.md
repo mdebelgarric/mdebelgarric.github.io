@@ -77,7 +77,7 @@ permalink: /publications/
     justify-content: center;
     font-size: 0.75rem;
     font-weight: bold;
-    border: 2px solid rgb(85, 71, 84)
+    border: 2px solid rgb(85, 71, 84);
     box-shadow: 0 2px 5px rgba(0,0,0,0.15);
     z-index: 2;
     cursor: pointer;

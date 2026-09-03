@@ -49,7 +49,7 @@ permalink: /publications/
     content: '';
     position: absolute;
     width: 3px;
-    background-color: rgb(85, 71, 84);
+    background-color: rgb(85, 71, 84) !important;
     top: 0;
     bottom: 0;
     left: 40px;
@@ -62,7 +62,7 @@ permalink: /publications/
     padding-left: 80px;
   }
 
-  /* Badge / Logo sur la frise (Fond blanc + contour noir) */
+  /* Badge / Logo sur la frise */
   .timeline-logo {
     position: absolute;
     left: 20px;
@@ -70,14 +70,14 @@ permalink: /publications/
     width: 42px;
     height: 42px;
     border-radius: 50%;
-    background: #ffffff;
-    color: #000000;
+    background: #ffffff !important;
+    color: #000000 !important;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 0.75rem;
     font-weight: bold;
-    border: 2px solid rgb(85, 71, 84);
+    border: 2px solid rgb(85, 71, 84) !important;
     box-shadow: 0 2px 5px rgba(0,0,0,0.15);
     z-index: 2;
     cursor: pointer;
@@ -95,28 +95,28 @@ permalink: /publications/
     transform: scale(1.15);
   }
 
-  /* Contenu de base (Date et événement) */
+  /* Date en rose */
   .timeline-date {
     font-weight: bold;
-    color: rgb(212, 91, 212);
+    color: rgb(212, 91, 212) !important;
     font-size: 0.9rem;
   }
 
   .timeline-event {
     font-size: 1rem;
     font-weight: 600;
-    color: #21261F;
+    color: #21261F !important;
   }
 
-  /* Carte d'information au survol (Tooltip) */
+  /* Carte d'information au survol */
   .timeline-card {
     display: none;
     position: absolute;
     left: 80px;
     top: 30px;
     width: 320px;
-    background: #FBFAF6;
-    border: 1px solid rgb(219, 180, 224);
+    background: #FBFAF6 !important;
+    border: 1px solid rgb(219, 180, 224) !important;
     border-radius: 6px;
     padding: 12px 16px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.12);
@@ -129,8 +129,8 @@ permalink: /publications/
 
   .timeline-card .tag {
     display: inline-block;
-    background: rgb(212, 91, 212);
-    color: white;
+    background: rgb(212, 91, 212) !important;
+    color: white !important;
     font-size: 0.7rem;
     text-transform: uppercase;
     padding: 2px 8px;
@@ -139,7 +139,7 @@ permalink: /publications/
   }
 
   .timeline-card .tag.poster {
-    background: #B08947;
+    background: #B08947 !important;
   }
 
   .timeline-card .title {
@@ -155,14 +155,6 @@ permalink: /publications/
     font-style: italic;
   }
 
-  .timeline-card img.conf-img {
-    width: 100%;
-    height: 110px;
-    object-fit: cover;
-    border-radius: 4px;
-    margin-top: 8px;
-  }
-
   .timeline-card details {
     margin-top: 8px;
     border-top: 1px dashed #B7B29E;
@@ -173,7 +165,7 @@ permalink: /publications/
   .timeline-card summary {
     cursor: pointer;
     font-weight: 600;
-    color: rgb(212, 91, 212);
+    color: rgb(212, 91, 212) !important;
   }
 
   .timeline-card .abstract-text {

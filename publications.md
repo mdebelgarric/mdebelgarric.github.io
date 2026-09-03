@@ -49,7 +49,7 @@ permalink: /publications/
     content: '';
     position: absolute;
     width: 3px;
-    background-color: rgb(85, 71, 84) !important;
+    background-color: rgb(85, 71, 84);
     top: 0;
     bottom: 0;
     left: 40px;
@@ -62,7 +62,7 @@ permalink: /publications/
     padding-left: 80px;
   }
 
-  /* Badge / Logo sur la frise */
+  /* Badge / Logo sur la frise (Fond blanc + contour noir) */
   .timeline-logo {
     position: absolute;
     left: 20px;
@@ -70,14 +70,14 @@ permalink: /publications/
     width: 42px;
     height: 42px;
     border-radius: 50%;
-    background: #ffffff !important;
-    color: #000000 !important;
+    background: #ffffff;
+    color: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 0.75rem;
     font-weight: bold;
-    border: 2px solid rgb(85, 71, 84) !important;
+    border: 2px solid rgb(85, 71, 84);
     box-shadow: 0 2px 5px rgba(0,0,0,0.15);
     z-index: 2;
     cursor: pointer;
@@ -95,28 +95,28 @@ permalink: /publications/
     transform: scale(1.15);
   }
 
-  /* Date en rose */
+  /* Contenu de base (Date et événement) */
   .timeline-date {
     font-weight: bold;
-    color: rgb(212, 91, 212) !important;
+    color: rgb(212, 91, 212);
     font-size: 0.9rem;
   }
 
   .timeline-event {
     font-size: 1rem;
     font-weight: 600;
-    color: #21261F !important;
+    color: #21261F;
   }
 
-  /* Carte d'information au survol */
+  /* Carte d'information au survol (Tooltip) */
   .timeline-card {
     display: none;
     position: absolute;
     left: 80px;
     top: 30px;
     width: 320px;
-    background: #FBFAF6 !important;
-    border: 1px solid rgb(219, 180, 224) !important;
+    background: #FBFAF6;
+    border: 1px solid rgb(219, 180, 224);
     border-radius: 6px;
     padding: 12px 16px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.12);
@@ -129,8 +129,8 @@ permalink: /publications/
 
   .timeline-card .tag {
     display: inline-block;
-    background: rgb(212, 91, 212) !important;
-    color: white !important;
+    background: rgb(212, 91, 212);
+    color: white;
     font-size: 0.7rem;
     text-transform: uppercase;
     padding: 2px 8px;
@@ -139,7 +139,7 @@ permalink: /publications/
   }
 
   .timeline-card .tag.poster {
-    background: #B08947 !important;
+    background: #B08947;
   }
 
   .timeline-card .title {
@@ -155,6 +155,14 @@ permalink: /publications/
     font-style: italic;
   }
 
+  .timeline-card img.conf-img {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-top: 8px;
+  }
+
   .timeline-card details {
     margin-top: 8px;
     border-top: 1px dashed #B7B29E;
@@ -165,7 +173,7 @@ permalink: /publications/
   .timeline-card summary {
     cursor: pointer;
     font-weight: 600;
-    color: rgb(212, 91, 212) !important;
+    color: rgb(212, 91, 212);
   }
 
   .timeline-card .abstract-text {
@@ -203,7 +211,7 @@ permalink: /publications/
 
   <!-- Feb 2026 -->
   <div class="timeline-item">
-    <div class="timeline-logo">DT</div>
+    <div class="timeline-logo"><img src="/assets/img/ucbl_logo.png" alt="Logo UCBL"></div>
     <div class="timeline-date">February 2026</div>
     <div class="timeline-event">Décryp'thèse 2026</div>
     <div class="timeline-card">
@@ -215,7 +223,7 @@ permalink: /publications/
 
   <!-- Jan 2026 -->
   <div class="timeline-item">
-    <div class="timeline-logo">GDRE</div>
+    <div class="timeline-logo"><img src="/assets/img/GDREA_logo.png" alt="Logo GDREA"></div>
     <div class="timeline-date">January 2026</div>
     <div class="timeline-event">GDR Ecotoxicologie Aquatique</div>
     <div class="timeline-card">
@@ -235,7 +243,7 @@ permalink: /publications/
 
   <!-- Mar 2024 -->
   <div class="timeline-item">
-    <div class="timeline-logo">NOW</div>
+    <div class="timeline-logo"><img src="/assets/img/nowpas_logo.png" alt="Logo NOWPAS"></div>
     <div class="timeline-date">March 2024</div>
     <div class="timeline-event">NoWPaS</div>
     <div class="timeline-card">
@@ -256,7 +264,7 @@ permalink: /publications/
 
   <!-- Jun 2023 -->
   <div class="timeline-item">
-    <div class="timeline-logo">DEB</div>
+    <div class="timeline-logo"><img src="/assets/img/DEB_logo.png" alt="Logo DEB"></div>
     <div class="timeline-date">June 2023</div>
     <div class="timeline-event">International Symposium on DEB Theory</div>
     <div class="timeline-card">
@@ -275,7 +283,7 @@ permalink: /publications/
 
   <!-- May 2023 -->
   <div class="timeline-item">
-    <div class="timeline-logo">EMP</div>
+    <div class="timeline-logo"><img src="/assets/img/EMPSEB_logo.png" alt="Logo EMPSEB"></div>
     <div class="timeline-date">May 2023</div>
     <div class="timeline-event">European Meeting for PhD students in Evolutionary Biology (EMPSEB)</div>
     <div class="timeline-card">
@@ -295,7 +303,7 @@ permalink: /publications/
 
   <!-- Mar 2023 -->
   <div class="timeline-item">
-    <div class="timeline-logo">NOW</div>
+    <div class="timeline-logo"><img src="/assets/img/nowpas_logo.png" alt="Logo NOWPAS"></div>
     <div class="timeline-date">March 2023</div>
     <div class="timeline-event">NoWPaS</div>
     <div class="timeline-card">
@@ -314,7 +322,7 @@ permalink: /publications/
 
   <!-- Nov 2022 -->
   <div class="timeline-item">
-    <div class="timeline-logo">JST</div>
+    <div class="timeline-logo"><img src="/assets/img/INRAE_logo.png" alt="Logo INRAE"></div>
     <div class="timeline-date">November 2022</div>
     <div class="timeline-event">JST LIFE (INRAE)</div>
     <div class="timeline-card">
@@ -326,7 +334,7 @@ permalink: /publications/
 
   <!-- Mar 2022 -->
   <div class="timeline-item">
-    <div class="timeline-logo">NOW</div>
+    <div class="timeline-logo"><img src="/assets/img/nowpas_logo.png" alt="Logo NOWPAS"></div>
     <div class="timeline-date">March 2022</div>
     <div class="timeline-event">NoWPaS</div>
     <div class="timeline-card">
@@ -345,7 +353,7 @@ permalink: /publications/
 
   <!-- Jun 2019 -->
   <div class="timeline-item">
-    <div class="timeline-logo">CBI</div>
+    <div class="timeline-logo"><img src="/assets/img/CBI_logo.png" alt="Logo CBI"></div>
     <div class="timeline-date">June 2019</div>
     <div class="timeline-event">19ème Colloque de Biologie de l'Insecte (CBI)</div>
     <div class="timeline-card">

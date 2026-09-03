@@ -2,7 +2,7 @@
 :root {
     --bg-color: #fafafa;         /* Fond légèrement cassé, plus doux que le blanc pur */
     --text-color: #222222;       /* Noir adouci pour le confort visuel */
-    --accent-color: #1b4332;     /* Vert forêt profond (ta couleur d'accent) */
+    --accent-color: rgb(212, 91, 212);     /* Vert forêt profond (ta couleur d'accent) */
     --border-color: #e5e5e5;     /* Gris clair pour les séparations discrètes */
     
     --font-serif: 'Newsreader', Georgia, serif;

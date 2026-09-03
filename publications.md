@@ -34,40 +34,6 @@ permalink: /publications/
 
 ---
 
-
-## Conferences & Oral Presentations
-
-- **July 2026** — Energy allocation and fitness: using DEB theory to model metal-induced trade-offs in a sentinel species.  
-  *Mathematical Modelling in Ecology and Evolution (**MMEE**)*, Cork, Ireland.
-
-- **February 2026** — Assessing the impact of heavy metals on *Gammarus fossarum* life-history traits using bioenergetics modelling.  
-  *Décryp'thèse 2026*, Lyon, France.
-
-- **January 2026** — Modelling the molting cycle in the sentinel species *Gammarus fossarum*: effects of heavy metals on reproduction.  
-  *Aquatic Ecotoxicology Workshop (**GDREA2026**)*, Banyuls-sur-mer, France.
-
-- **March 2024** — Unlocking the Drivers of Life-History Strategies in *Salmo trutta*: A Bioenergetic Modeling Approach.  
-  *International Workshop of PhDs and Post-doctoral Fellows on Anadromous Salmonids (**NoWPaS2024**)*, Cromarty, Scotland.
-
-- **June 2023** — An application of DEB theory to understand the co-variation of life-history traits in freshwater populations.  
-  *8th International Symposium on DEB Theory (**DEB2023**)*, Baton-Rouge, USA.
-
-- **May 2023** — Modelling bioenergetics to understand the co-variation of life-history traits in freshwater populations.  
-  *28th European Meeting for PhD Students in Evolutionary Biology (**EMPSEB28**)*, Millport, Scotland.
-
-- **March 2023** — Modelling bioenergetics to understand the co-variation of life-history traits in salmonids.  
-  *NoWPaS2023*, Oslo / Drøbak, Norway.
-
-- **November 2022** — Impact of global changes on freshwater populations: Use of the Dynamic Energy Budget model.  
-  *INRAE (**JST LIFE**)*, Thonon-les-Bains, France.
-
-- **March 2022** — Impact of global changes on salmonids population: use of the DEB model.  
-  *NoWPaS2022*, Saint-Etienne-de-Baïgorry, France.
-
-- **June 2019** (**Poster**) — Temperature dynamics in ant nests: observation, characterisation and theoretical framework.  
-  *19th Insect Biology Colloquium (**19CBI**)*, Albi, France.
-
-
 ## Conferences & Oral Presentations
 
 <style>
@@ -104,7 +70,7 @@ permalink: /publications/
     width: 42px;
     height: 42px;
     border-radius: 50%;
-    background: #2F5D50;
+    background: rgb(212, 91, 212);
     color: white;
     display: flex;
     align-items: center;
@@ -132,7 +98,7 @@ permalink: /publications/
   /* Contenu de base (Date et événement) */
   .timeline-date {
     font-weight: bold;
-    color: #2F5D50;
+    color: rgb(212, 91, 212);
     font-size: 0.9rem;
   }
 
@@ -150,7 +116,7 @@ permalink: /publications/
     top: 30px;
     width: 320px;
     background: #FBFAF6;
-    border: 1px solid #B7B29E;
+    border: 1px solidrgb(123, 230, 189);
     border-radius: 6px;
     padding: 12px 16px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.12);
@@ -163,7 +129,7 @@ permalink: /publications/
 
   .timeline-card .tag {
     display: inline-block;
-    background: #2F5D50;
+    background: rgb(212, 91, 212);
     color: white;
     font-size: 0.7rem;
     text-transform: uppercase;
@@ -207,7 +173,7 @@ permalink: /publications/
 .timeline-card summary {
   cursor: pointer;
   font-weight: 600;
-  color: #2F5D50;
+  color: rgb(212, 91, 212);
 }
 
 .timeline-card .abstract-text {
@@ -224,7 +190,7 @@ permalink: /publications/
 
   <!-- Jul 2026 -->
   <div class="timeline-item">
-    <div class="timeline-logo">MMEE</div>
+    <div class="timeline-logo"><img src="{{ '/assets/images/logo-mmee.png' | relative_url }}" alt="Logo"></div>
     <div class="timeline-date">July 2026</div>
     <div class="timeline-event">Mathematical Modelling in Ecology and Evolution</div>
     <div class="timeline-card">
@@ -263,7 +229,7 @@ permalink: /publications/
     <div class="timeline-card">
       <span class="tag">Oral Presentation</span>
       <div class="title">Modelling the molting cycle in the sentinel species <i>Gammarus fossarum</i>: effects of heavy metals on reproduction</div>
-      <div class="location">Aquatic Ecotoxicology Workshop, Banyuls-sur-mer, France</div>
+      <div class="location">Banyuls-sur-mer, France</div>
       <details>
     <summary>Show Abstract</summary>
     <div class="abstract-text">

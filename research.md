@@ -50,7 +50,7 @@ permalink: /research/
   <div class="research-item">
     <div class="research-header">
       <span class="research-role">MSc Thesis & Voluntary Internship</span>
-      <span class="research-dates">2019 – 2020 (8 months)</span>
+      <span class="research-dates">2019 – 2020 (2 & 6 months)</span>
     </div>
     <div class="research-location">CNRS UMR LEFE & INRAE UMR RECOVER — Toulouse & Aix-en-Provence, France</div>
     <div class="research-detail">
@@ -80,7 +80,7 @@ permalink: /research/
   <div class="research-item">
   <div class="research-header">
     <span class="research-role">BSc Voluntary Internships</span>
-    <span class="research-dates">2018 (2 months)</span>
+    <span class="research-dates">2018 (2 & 2 months)</span>
   </div>
   <div class="research-location">CNRS UMR CRCA — Toulouse, France</div>
   
@@ -96,7 +96,7 @@ permalink: /research/
 <div class="research-item">
   <div class="research-header">
     <span class="research-role">BSc Voluntary Internships</span>
-    <span class="research-dates">2015 & 2016 (2 months)</span>
+    <span class="research-dates">2015 & 2016 (2 & 2 months)</span>
   </div>
   <div class="research-location">CNRS UMR SETE — Moulis, France</div>
   

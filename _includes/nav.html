@@ -1,14 +1,17 @@
 <nav>
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <a href="{{ '/research/' | relative_url }}">Research</a>
-    <a href="{{ '/publications/' | relative_url }}">Publications</a>
-    <a href="{{ '/contact/' | relative_url }}">Contact</a>
-
+  <ul class="nav-links">
+    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+    
+    <!-- C'est ici que commence le menu déroulant -->
     <li class="dropdown">
-      <a href="{{ '/research' | relative_url }}" class="dropbtn">Research ▾</a>
+      <a href="{{ '/research/' | relative_url }}" class="dropbtn">Research ▾</a>
       <ul class="dropdown-content">
         <li><a href="{{ '/research#experience' | relative_url }}">Research Experience</a></li>
         <li><a href="{{ '/research#social' | relative_url }}">Academic & Social Events</a></li>
       </ul>
     </li>
+    
+    <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
+    <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+  </ul>
 </nav>

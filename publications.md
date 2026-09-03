@@ -6,10 +6,9 @@ permalink: /publications/
 
 # Publications
 
----
-
 ## Journal Articles
 
+---
 
 - **Debelgarric, M.**,  Geffard, O., Felten, V., Lopes, C. (2026).  
   *Molting else matters: an extended bioenergetic model for Gammarus fossarum that links molt and reproduction*.  

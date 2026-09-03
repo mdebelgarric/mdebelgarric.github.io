@@ -261,6 +261,12 @@ permalink: /publications/
       <span class="tag">Oral Presentation</span>
       <div class="title">Unlocking the Drivers of Life-History Strategies in <i>Salmo trutta</i>: A Bioenergetic Modeling Approach</div>
       <div class="location">Cromarty, Scotland</div>
+      <!-- PHOTO -->
+    <div class="event-photo">
+      <img src="{{ '/assets/img/photo_nowpas_cromarty.jpg' | relative_url }}" 
+      alt="Nowpas Cromarty"
+      style="max-width: 450px; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+    </div>
       <details>
     <summary>Show Abstract</summary>
     <div class="abstract-text">
@@ -282,6 +288,12 @@ permalink: /publications/
       <span class="tag">Oral Presentation</span>
       <div class="title">An application of DEB theory to understand the co-variation of life-history traits in freshwater populations</div>
       <div class="location">Baton-Rouge, Louisiana, USA</div>
+      <!-- PHOTO -->
+    <div class="event-photo">
+      <img src="{{ '/assets/img/photo_DEB.jpg' | relative_url }}" 
+      alt="DEB"
+      style="max-width: 450px; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+    </div>
       <details>
     <summary>Show Abstract</summary>
     <div class="abstract-text">
@@ -301,6 +313,12 @@ permalink: /publications/
       <span class="tag">Oral Presentation</span>
       <div class="title">Modelling bioenergetics to understand the co-variation of life-history traits in freshwater populations</div>
       <div class="location">Millport, Scotland</div>
+      <!-- PHOTO -->
+    <div class="event-photo">
+      <img src="{{ '/assets/img/photo_EMPSEB.jpg' | relative_url }}" 
+      alt="EMPSEB"
+      style="max-width: 450px; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+    </div>
       <details>
     <summary>Show Abstract</summary>
     <div class="abstract-text">

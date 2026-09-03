@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-# Research Experience
+## Research Experience
 
 <div class="research-list">
 
@@ -89,9 +89,7 @@ permalink: /research/
     <li>Bio-mechanical processes of locomotion in the ant <i>Messor barbarus</i>.</li>
   </ul>
   <div class="research-skills">
-    <strong>Acquired skills:</strong> Lab experiment setup; Field experiment (temperature setup, data logging);
-    Data processing; Video tracking software training; Report and poster writing; Modelling and
-    mathematics (R language, thermodynamics, spatial movements).
+    <strong>Acquired skills:</strong> Lab experiment setup; Field experiment (temperature setup, data logging); Data processing; Video tracking software training; Report and poster writing; Modelling and mathematics (R language, thermodynamics, spatial movements).
   </div>
 </div>
 
@@ -103,10 +101,23 @@ permalink: /research/
   <div class="research-location">CNRS UMR SETE — Moulis, France</div>
   
   <ul class="research-detail-list" style="margin: 8px 0; padding-left: 20px;">
-    <li>Study of the spatial dispersal behaviour of the marbled newt Triturus marmoratus and the common toad Bufo bufo</li>
+    <li>Study of the spatial dispersal behaviour of the marbled newt <i>Triturus marmoratus</i> and the common toad <i>Bufo bufo</i></li>
     <li>Study of the impact of climate warming on Pyrenean ectotherms (INTERREG POCTEFA ECTOPYR Project).</li>
   </ul>
   <div class="research-skills">
-    <strong>Acquired skills:</strong> Data processing, statistical testing in R, field work (radio-tracking), organisation of a European meeting.
+    <strong>Acquired skills:</strong> Data processing, statistical testing in R, field work (radio-tracking), organisation of an European meeting.
+  </div>
+</div>
+
+## Academic & Social Events
+
+<div class="research-item">
+  <div class="research-header">
+    <span class="research-role">Organizing Committee Member</span>
+    <span class="research-dates">2024 – Present</span>
+  </div>
+  <div class="research-location">NOWPAS (Nordic Workshop on Ecology and Evolution)</div>
+  <div class="research-detail">
+    Co-organization of international seminars and workshops for PhD students and early-career researchers in ecology and evolution.
   </div>
 </div>

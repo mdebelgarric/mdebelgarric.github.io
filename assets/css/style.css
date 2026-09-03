@@ -275,3 +275,42 @@
   }
   #message.win  { color: #571487; font-weight: bold; }
   #message.lose { color: #ff7ef9; font-weight: bold; }
+
+
+
+  /* Style du menu déroulant */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.15);
+  border-radius: 6px;
+  z-index: 1000;
+  top: 100%;
+  left: 0;
+}
+
+.dropdown-content a {
+  color: #21261F;
+  padding: 10px 14px;
+  text-decoration: none;
+  display: block;
+  font-size: 0.9rem;
+}
+
+.dropdown-content a:hover {
+  background-color: #fae3ff; /* Ton violet très clair */
+  color: rgb(212, 91, 212); /* Ton violet foncé */
+  border-radius: 6px;
+}
+
+/* Affiche le menu au survol */
+.dropdown:hover .dropdown-content {
+  display: block;
+}

@@ -78,36 +78,35 @@ permalink: /research/
 
   <!-- BSc Voluntary Internships -->
   <div class="research-item">
-    <div class="research-header">
-      <span class="research-role">BSc Voluntary Internships</span>
-      <span class="research-dates">2018 (2 months)</span>
-    </div>
-    <div class="research-location">CNRS UMR CRCA — Toulouse, France</div>
-    <div class="research-detail">
-      Spatial dynamics of temperature in ants (<i>Lasius niger</i>) nests.
-    </div>
-    <div class="research-detail">
-      Bio-mechanical processes of locomotion in the ant <i>Messor barbarus</i>.
-    </div>
-    <div class="research-skills">
-      <strong>Acquired skills:</strong> Lab experiment (set up); Field experiment (temperature set up, data logging);
-Data processing; Video tracking software training; Report and poster writing; Modelling and
-mathematics (R language, thermodynamic, spacial movements).
-    </div>
+  <div class="research-header">
+    <span class="research-role">BSc Voluntary Internships</span>
+    <span class="research-dates">2018 (2 months)</span>
   </div>
-
-  <div class="research-item">
-    <div class="research-header">
-      <span class="research-role">BSc Voluntary Internships</span>
-      <span class="research-dates">2015 & 2016 (4 months)</span>
-    </div>
-    <div class="research-location">CNRS UMR SETE — Moulis, France</div>
-    <div class="research-detail">
-      Effect of temperature on the dispersion behavior of ectotherms in the Pyrenees.
-    </div>
-    <div class="research-skills">
-      <strong>Acquired skills:</strong> Data processing, statistical testing in R, field work (radio-tracking), organisation of a European meeting.
-    </div>
+  <div class="research-location">CNRS UMR CRCA — Toulouse, France</div>
+  
+  <ul class="research-detail-list" style="margin: 8px 0; padding-left: 20px;">
+    <li>Spatial dynamics of temperature in ants <i>Lasius niger</i> nests.</li>
+    <li>Bio-mechanical processes of locomotion in the ant <i>Messor barbarus</i>.</li>
+  </ul>
+  <div class="research-skills">
+    <strong>Acquired skills:</strong> Lab experiment setup; Field experiment (temperature setup, data logging);
+    Data processing; Video tracking software training; Report and poster writing; Modelling and
+    mathematics (R language, thermodynamics, spatial movements).
   </div>
+</div>
 
+<div class="research-item">
+  <div class="research-header">
+    <span class="research-role">BSc Voluntary Internships</span>
+    <span class="research-dates">2015 & 2016 (2 months)</span>
+  </div>
+  <div class="research-location">CNRS UMR SETE — Moulis, France</div>
+  
+  <ul class="research-detail-list" style="margin: 8px 0; padding-left: 20px;">
+    <li>Study of the spatial dispersal behaviour of the marbled newt Triturus marmoratus and the common toad Bufo bufo</li>
+    <li>Study of the impact of climate warming on Pyrenean ectotherms (INTERREG POCTEFA ECTOPYR Project).</li>
+  </ul>
+  <div class="research-skills">
+    <strong>Acquired skills:</strong> Data processing, statistical testing in R, field work (radio-tracking), organisation of a European meeting.
+  </div>
 </div>

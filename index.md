@@ -18,9 +18,9 @@ I am always open to scientific discussions, collaborations, or questions regardi
 
 You can download my updated CV here:
 
-<p style="margin-top: 1.5rem;">
-  <a href="{{ '/cv.pdf' | relative_url }}" target="_blank" style="padding: 8px 16px; background-color:rgb(212, 91, 212); color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem;">📄 Download CV (PDF)</a>
-</p>
+<a href="{{ '/cv.pdf' | relative_url }}" target="_blank" class="cv-button">
+  📄 Download CV (PDF)
+</a>
 
 ## Have you tried to guess the daily word ?
 

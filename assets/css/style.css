@@ -307,16 +307,17 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #ffffff;
-  min-width: 200px;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
-  border-radius: 6px;
-  z-index: 1000;
   top: 100%;
   left: 0;
-  padding: 0; /* Enlève le padding par défaut des <ul> */
+  background-color: #ffffff;
+  width: max-content; /* S'adapte exactement à la longueur des textes */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 8px; /* Arrondi propre aux 4 coins du menu */
+  overflow: hidden; /* Empêche le fond rose au survol de dépasser des coins */
+  padding: 0; /* Important : pas de marge interne blanche autour ! */
   margin: 0;
-  list-style: none; /* Enlève les puces du sous-menu */
+  list-style: none;
+  z-index: 1000;
 }
 
 .dropdown-content li {
@@ -326,17 +327,16 @@
 
 .dropdown-content a {
   color: #21261f;
-  padding: 10px 14px;
+  padding: 12px 18px; /* C'est le lien lui-même qui gère l'espace interne */
   text-decoration: none;
   display: block;
   font-size: 0.9rem;
-  white-space: nowrap; /* Empêche le texte de couper sur deux lignes */
+  border-radius: 0;
 }
 
 .dropdown-content a:hover {
   background-color: #fae3ff;
   color: rgb(212, 91, 212);
-  border-radius: 6px;
 }
 
 /* Affiche le menu au survol */

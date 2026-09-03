@@ -212,3 +212,66 @@
     border: 0;
   }
 
+/* ---- Daily Game ---- */
+
+  .game-card {
+    max-width: 420px;
+    margin: 2rem auto;
+    background: #FBFAF6;
+    border: 1px solid #fae3ff;
+    padding: 24px;
+    border-radius: 8px;
+  }
+  .game-subtitle {
+    font-size: 0.85rem;
+    color: #55594E;
+    margin-bottom: 20px;
+    line-height: 1.4;
+  }
+  #grid {
+    display: grid;
+    gap: 6px;
+    margin-bottom: 20px;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: repeat(var(--word-length, 6), 1fr);
+    gap: 6px;
+  }
+  .tile {
+    aspect-ratio: 1;
+    border: 2px solid #B7B29E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #21261F;
+    background: #FBFAF6;
+  }
+  .tile.correct { background: #571487; border-color: #571487; color: #fff; }
+  .tile.present { background: #ff7ef9; border-color: #ff7ef9; color: #fff; }
+  .tile.absent  { background: #fae3ff; border-color: #fae3ff; color: #21261F; }
+  
+  #input-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+  #letter-input {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #B7B29E;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  #submit-btn {
+    border: 1px solid #21261F;
+    background: #21261F;
+    color: #fff;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  #message.win  { color: #2F5D50; font-weight: bold; }
+  #message.lose { color: #9C4A3B; font-weight: bold; }

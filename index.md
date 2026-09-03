@@ -24,73 +24,14 @@ You can download my updated CV here:
 
 ## Have you tried to guess the daily word ?
 
-<style>
-  .game-card {
-    max-width: 420px;
-    margin: 2rem auto;
-    background: #FBFAF6;
-    border: 1px solid #B7B29E;
-    padding: 24px;
-    border-radius: 8px;
-  }
-  .game-subtitle {
-    font-size: 0.85rem;
-    color: #55594E;
-    margin-bottom: 20px;
-    line-height: 1.4;
-  }
-  #grid {
-    display: grid;
-    gap: 6px;
-    margin-bottom: 20px;
-  }
-  .row {
-    display: grid;
-    grid-template-columns: repeat(var(--word-length, 6), 1fr);
-    gap: 6px;
-  }
-  .tile {
-    aspect-ratio: 1;
-    border: 2px solid #B7B29E;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: monospace;
-    font-weight: bold;
-    font-size: 1.1rem;
-    color: #21261F;
-    background: #FBFAF6;
-  }
-  .tile.correct { background: #571487; border-color: #571487; color: #fff; }
-  .tile.present { background: #28c7a4; border-color: #28c7a4; color: #fff; }
-  .tile.absent  { background: #ffe3f8; border-color: #ffe3f8; color: #21261F; }
-  
-  #input-row {
-    display: flex;
-    gap: 8px;
-    margin-bottom: 12px;
-  }
-  #letter-input {
-    flex: 1;
-    padding: 8px 12px;
-    border: 1px solid #B7B29E;
-    font-size: 1rem;
-    text-transform: uppercase;
-  }
-  #submit-btn {
-    border: 1px solid #21261F;
-    background: #21261F;
-    color: #fff;
-    padding: 8px 16px;
-    cursor: pointer;
-  }
-  #message.win  { color: #2F5D50; font-weight: bold; }
-  #message.lose { color: #9C4A3B; font-weight: bold; }
-</style>
-
 <div class="game-card">
   <h3>Word of the day</h3>
-  <p class="game-subtitle"><strong>How to play:</strong> Guess the hidden word in 6 tries. The word is related to my research topic. Dark (purple) tiles mean the letter is in the right spot, light green tiles mean it's in the word but misplaced, and light pink tiles mean it's not in the word.</p>
+  <p class="game-subtitle">
+  <strong>How to play:</strong> Guess the hidden research-related word in 6 tries. The word is related to my research topic !<br>
+  • <span style="background: #571487; color: #fff; padding: 2px 6px; border-radius: 4px; font-weight: bold; font-size: 0.8rem;">Dark purple</span> : The letter is in the correct spot.<br>
+  • <span style="background: #ff7ef9; color: #fff; padding: 2px 6px; border-radius: 4px; font-weight: bold; font-size: 0.8rem;">Bright pink</span> : The letter is in the word, but in the wrong spot.<br>
+  • <span style="background: #fae3ff; color: #21261F; padding: 2px 6px; border-radius: 4px; font-weight: bold; font-size: 0.8rem; border: 1px solid #ff7ef9;">Light pink</span> : The letter is not in the word.
+</p>
 
   <div id="grid"></div>
 

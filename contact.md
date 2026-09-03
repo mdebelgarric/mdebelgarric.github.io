@@ -20,7 +20,7 @@ Feel free to reach out via email or connect with me on academic and professional
       69622 Villeurbanne Cedex, France
     </p>
     <p>
-      <strong>Email:</strong> [melanie.debelgarric@univ-lyon1.fr](mailto:melanie.debelgarric@univ-lyon1.fr)<br>
+      <strong>Email:</strong> <a href="mailto:melanie.debelgarric@univ-lyon1.fr">melanie.debelgarric@univ-lyon1.fr</a><br>
     </p>
   </div>
 

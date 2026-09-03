@@ -62,7 +62,7 @@ permalink: /publications/
     padding-left: 80px;
   }
 
-  /* Badge / Logo sur la frise */
+  /* Badge / Logo sur la frise (Fond blanc + contour noir) */
   .timeline-logo {
     position: absolute;
     left: 20px;
@@ -70,14 +70,14 @@ permalink: /publications/
     width: 42px;
     height: 42px;
     border-radius: 50%;
-    background: rgb(216, 208, 216);
-    color: white;
+    background: #ffffff;
+    color: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 0.75rem;
     font-weight: bold;
-    border: 3px solid #FBFAF6;
+    border: 2px solid #000000;
     box-shadow: 0 2px 5px rgba(0,0,0,0.15);
     z-index: 2;
     cursor: pointer;
@@ -116,7 +116,7 @@ permalink: /publications/
     top: 30px;
     width: 320px;
     background: #FBFAF6;
-    border: 1px solidrgb(123, 230, 189);
+    border: 1px solid rgb(123, 230, 189);
     border-radius: 6px;
     padding: 12px 16px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.12);
@@ -164,24 +164,24 @@ permalink: /publications/
   }
 
   .timeline-card details {
-  margin-top: 8px;
-  border-top: 1px dashed #B7B29E;
-  padding-top: 6px;
-  font-size: 0.75rem;
-}
+    margin-top: 8px;
+    border-top: 1px dashed #B7B29E;
+    padding-top: 6px;
+    font-size: 0.75rem;
+  }
 
-.timeline-card summary {
-  cursor: pointer;
-  font-weight: 600;
-  color: rgb(212, 91, 212);
-}
+  .timeline-card summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: rgb(212, 91, 212);
+  }
 
-.timeline-card .abstract-text {
-  margin-top: 6px;
-  color: #55594E;
-  line-height: 1.35;
-  text-align: justify;
-}
+  .timeline-card .abstract-text {
+    margin-top: 6px;
+    color: #55594E;
+    line-height: 1.35;
+    text-align: justify;
+  }
 </style>
 
 

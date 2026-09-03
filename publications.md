@@ -191,7 +191,7 @@ permalink: /publications/
   <div class="timeline-item">
     <div class="timeline-logo"><img src="/assets/img/mmee_logo.png" alt="Logo MMEE"></div>
     <div class="timeline-date">July 2026</div>
-    <div class="timeline-event">Mathematical Modelling in Ecology and Evolution</div>
+    <div class="timeline-event">Mathematical Modelling in Ecology and Evolution (MMEE)</div>
     <div class="timeline-card">
       <span class="tag">Oral Presentation</span>
       <div class="title">Energy allocation and fitness: using DEB theory to model metal-induced trade-offs in a sentinel species</div>

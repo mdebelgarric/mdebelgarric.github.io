@@ -80,7 +80,26 @@ permalink: /research/
   <div class="research-item">
     <div class="research-header">
       <span class="research-role">BSc Voluntary Internships</span>
-      <span class="research-dates">2016 (4 months)</span>
+      <span class="research-dates">2018 (2 months)</span>
+    </div>
+    <div class="research-location">CNRS UMR CRCA — Toulouse, France</div>
+    <div class="research-detail">
+      Spatial dynamics of temperature in ants (<i>Lasius niger</i>) nests.
+    </div>
+    <div class="research-detail">
+      Bio-mechanical processes of locomotion in the ant <i>Messor barbarus</i>.
+    </div>
+    <div class="research-skills">
+      <strong>Acquired skills:</strong> Lab experiment (set up); Field experiment (temperature set up, data logging);
+Data processing; Video tracking software training; Report and poster writing; Modelling and
+mathematics (R language, thermodynamic, spacial movements).
+    </div>
+  </div>
+
+  <div class="research-item">
+    <div class="research-header">
+      <span class="research-role">BSc Voluntary Internships</span>
+      <span class="research-dates">2015 & 2016 (4 months)</span>
     </div>
     <div class="research-location">CNRS UMR SETE — Moulis, France</div>
     <div class="research-detail">

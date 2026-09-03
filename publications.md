@@ -198,7 +198,9 @@ permalink: /publications/
       <div class="location">Cork, Ireland</div>
       <!-- PHOTO -->
     <div class="event-photo">
-      <img src="{{ '/assets/img/photo_mmee.jpg' | relative_url }}" alt="Presentation at MMEE 2026">
+      <img src="{{ '/assets/img/photo_mmee.jpg' | relative_url }}" 
+      alt="Presentation at MMEE 2026"
+      style="max-width: 450px; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
     </div>
       <details>
     <summary>Show Abstract</summary>

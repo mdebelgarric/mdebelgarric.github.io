@@ -196,6 +196,10 @@ permalink: /publications/
       <span class="tag">Oral Presentation</span>
       <div class="title">Energy allocation and fitness: using DEB theory to model metal-induced trade-offs in a sentinel species</div>
       <div class="location">Cork, Ireland</div>
+      <!-- PHOTO -->
+    <div class="event-photo">
+      <img src="{{ '/assets/img/photo_mmee.jpg' | relative_url }}" alt="Presentation at MMEE 2026">
+    </div>
       <details>
     <summary>Show Abstract</summary>
     <div class="abstract-text">
@@ -217,6 +221,12 @@ permalink: /publications/
       <span class="tag">Oral Presentation</span>
       <div class="title">Assessing the impact of heavy metals on <i>Gammarus fossarum</i> life-history traits using bioenergetics modelling</div>
       <div class="location">Lyon, France</div>
+      <details>
+    <summary>Show Abstract</summary>
+    <div class="abstract-text">
+      <p><em>No abstract available.</em></p>
+    </div>
+  </details>
     </div>
   </div>
 
@@ -265,7 +275,7 @@ permalink: /publications/
   <div class="timeline-item">
     <div class="timeline-logo"><img src="/assets/img/DEB_logo.png" alt="Logo DEB"></div>
     <div class="timeline-date">June 2023</div>
-    <div class="timeline-event">International Symposium on DEB Theory</div>
+    <div class="timeline-event">8th International Symposium on DEB Theory</div>
     <div class="timeline-card">
       <span class="tag">Oral Presentation</span>
       <div class="title">An application of DEB theory to understand the co-variation of life-history traits in freshwater populations</div>
@@ -284,7 +294,7 @@ permalink: /publications/
   <div class="timeline-item">
     <div class="timeline-logo"><img src="/assets/img/EMPSEB_logo.png" alt="Logo EMPSEB"></div>
     <div class="timeline-date">May 2023</div>
-    <div class="timeline-event">European Meeting for PhD students in Evolutionary Biology (EMPSEB)</div>
+    <div class="timeline-event">28th European Meeting for PhD students in Evolutionary Biology (EMPSEB)</div>
     <div class="timeline-card">
       <span class="tag">Oral Presentation</span>
       <div class="title">Modelling bioenergetics to understand the co-variation of life-history traits in freshwater populations</div>
@@ -328,6 +338,12 @@ permalink: /publications/
       <span class="tag">Oral Presentation</span>
       <div class="title">Impact of global changes on freshwater populations: Use of the Dynamic Energy Budget model</div>
       <div class="location">Thonon-les-Bains, France</div>
+      <details>
+    <summary>Show Abstract</summary>
+    <div class="abstract-text">
+      <p><em>No abstract available.</em></p>
+    </div>
+  </details>
     </div>
   </div>
 

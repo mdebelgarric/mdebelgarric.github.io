@@ -190,7 +190,7 @@ permalink: /publications/
 
   <!-- Jul 2026 -->
   <div class="timeline-item">
-    <div class="timeline-logo"><img src="{{'/assets/images/mmee_logo.png' | relative_url }}" alt="Logo"></div>
+    <div class="timeline-logo"><img src="{{'/assets/img/mmee_logo.png' | relative_url }}" alt="Logo"></div>
     <div class="timeline-date">July 2026</div>
     <div class="timeline-event">Mathematical Modelling in Ecology and Evolution</div>
     <div class="timeline-card">

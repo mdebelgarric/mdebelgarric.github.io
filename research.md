@@ -69,6 +69,24 @@ permalink: /research/
   .research-skills strong {
     color: #21261F;
   }
+
+  .thesis-link {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: rgb(212, 91, 212);
+    text-decoration: none;
+    border: 1px solid rgb(212, 91, 212);
+    padding: 3px 10px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+  }
+
+  .thesis-link:hover {
+    background: rgb(212, 91, 212);
+    color: white;
+  }
 </style>
 
 <div class="research-list">
@@ -78,7 +96,7 @@ permalink: /research/
   <!-- Post-doc -->
   <div class="research-item">
     <div class="research-header">
-      <span class="research-role">Post-doctoral Researcher</span>
+      <span class="research-role">Postdoctoral Researcher</span>
       <span class="research-dates">2025 – 2027 (24 months)</span>
     </div>
     <div class="research-location">Université Claude Bernard Lyon 1, LBBE UMR 5558, Team IMPACT — Lyon, France</div>
@@ -90,7 +108,7 @@ permalink: /research/
     </div>
   </div>
 
-  <!-- PhD Thesis -->
+<!-- PhD Thesis -->
   <div class="research-item">
     <div class="research-header">
       <span class="research-role">PhD Thesis</span>
@@ -100,7 +118,11 @@ permalink: /research/
     <div class="research-detail">
       Unravelling the evolutionary potential of freshwater organisms facing climate change through Dynamic Energy Budget theory.
     </div>
-    <div class="research-skills">
+    <!-- Lien vers la thèse -->
+    <a href="https://theses.hal.science/tel-05051584/file/136720_DEBELGARRIC_2024_archivage.pdf" target="_blank" class="thesis-link">
+      📖 Read PhD Dissertation (HAL)
+    </a>
+    <div class="research-skills" style="margin-top: 10px;">
       <strong>Acquired skills:</strong> Dynamic Energy Budget theory, modelling in R & MATLAB, life-history theory, Pace-of-Life Syndromes (POLS), international seminars, scientific writing (first author), English dissertation defense.
     </div>
   </div>

@@ -8,11 +8,13 @@ permalink: /
 
 Welcome on my website. I am currently a postdoctoral researcher at the LBBE in Lyon, France, until March 2027.
 
-## Presentation
+## Biography
 
-My main area of research is applying the 'Dynamic Energy Budget' (DEB) theory (Kooijman, 2010) to explain the effect of environmental stressors on the physiology of freshwater organisms.
+My research focuses on applying Dynamic Energy Budget (DEB) theory (Kooijman, 2010) to understand and predict how environmental stressors impact the physiology, life-history traits, and evolutionary trajectories of freshwater organisms. By combining bioenergetic modelling, Bayesian statistical inference, and experimental data, I aim to bridge individual-level physiological mechanisms with population-level responses to global changes.
 
-After defending my thesis in December 2024, which used bioenergetic modelling to explore the impact of temperature variations and physiological constraints on the evolutionary trajectories of two freshwater species (the water flea *Daphnia magna* and the brown trout *Salmo trutta*), I began my first postdoctoral position with the IMPACT team at the LBBE in March 2025. I am currently applying this approach to examine the physiological effects of various heavy metals on the reproduction of *Gammarus fossarum*, a sentinel species found in our rivers.
+After defending my PhD in December 2024 — which explored the combined effects of temperature variations and physiological constraints on *Daphnia magna* and *Salmo trutta* —, I joined the IMPACT team at the LBBE (Lyon, France) in March 2025 as a postdoctoral researcher. My current work focuses on ecotoxicology and DEB-TKTD modelling to decipher the physiological mechanisms and trade-offs induced by heavy metals on the reproduction of the sentinel species *Gammarus fossarum*.
+
+I am always open to scientific discussions, collaborations, or questions regarding DEB theory and ecotoxicological modelling — feel free to reach out!
 
 You can download my updated CV here:
 

@@ -70,7 +70,7 @@ permalink: /publications/
     width: 42px;
     height: 42px;
     border-radius: 50%;
-    background: rgb(212, 91, 212);
+    background: rgb(216, 208, 216);
     color: white;
     display: flex;
     align-items: center;
@@ -98,7 +98,7 @@ permalink: /publications/
   /* Contenu de base (Date et événement) */
   .timeline-date {
     font-weight: bold;
-    color: rgb(212, 91, 212);
+    color: rgb(12, 2, 12);
     font-size: 0.9rem;
   }
 

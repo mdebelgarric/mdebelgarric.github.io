@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-## Research Experience
+<h2 id="experience">Research Experience</h2>
 
 <div class="research-list">
 
@@ -109,7 +109,7 @@ permalink: /research/
   </div>
 </div>
 
-## Academic & Social Events
+<h2 id="social">Academic & Social Events</h2>
 
 <div class="research-item">
   <div class="research-header">

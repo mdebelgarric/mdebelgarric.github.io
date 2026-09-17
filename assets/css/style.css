@@ -1,3 +1,10 @@
+/* Défilement research */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Ajuste cette valeur selon la hauteur de ton menu fixe */
+}
+
+
 /* --- Variables de couleurs et polices --- */
 :root {
     --bg-color: #fafafa;         /* Fond légèrement cassé, plus doux que le blanc pur */
@@ -343,3 +350,4 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+

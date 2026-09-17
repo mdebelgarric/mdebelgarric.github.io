@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-<h2 id="experience">Research Experience</h2>
+## Research Experience
 
 <div class="research-list">
 
@@ -109,15 +109,3 @@ permalink: /research/
   </div>
 </div>
 
-<h2 id="social">Academic & Social Events</h2>
-
-<div class="research-item">
-  <div class="research-header">
-    <span class="research-role">Organizing Committee Member</span>
-    <span class="research-dates">2024 – Present</span>
-  </div>
-  <div class="research-location">NOWPAS (Nordic Workshop on Ecology and Evolution)</div>
-  <div class="research-detail">
-    Co-organization of international seminars and workshops for PhD students and early-career researchers in ecology and evolution.
-  </div>
-</div>

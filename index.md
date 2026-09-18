@@ -6,7 +6,7 @@ permalink: /
 
 # Mélanie Debelgarric
 
-Welcome on my website. I am currently a postdoctoral researcher at the LBBE in Lyon, France, until March 2027.
+Welcome on my website. I am currently a postdoctoral researcher at the LBBE in Lyon, France, until February 2027.
 
 ## Biography
 

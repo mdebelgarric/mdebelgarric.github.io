@@ -24,10 +24,6 @@ You can download my updated CV here:
 
 ## Have you tried to guess the daily word ?
 
- 
-
-
-## V2 (in prep)
 
 {::nomarkdown}
 <div class="game-card">

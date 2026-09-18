@@ -12,7 +12,7 @@ Welcome on my website. I am currently a postdoctoral researcher at the LBBE in L
 
 My research focuses on applying Dynamic Energy Budget (DEB) theory (Kooijman, 2010) to understand and predict how environmental stressors impact the physiology, life-history traits, and evolutionary trajectories of freshwater organisms. By combining bioenergetic modelling, Bayesian statistical inference, and experimental data, I aim to bridge individual-level physiological mechanisms with population-level responses to global changes.
 
-After defending my PhD in December 2024 — which explored the combined effects of temperature variations and physiological constraints on *Daphnia magna* and *Salmo trutta* —, I joined the IMPACT team at the LBBE (Lyon, France) in March 2025 as a postdoctoral researcher. My current work focuses on ecotoxicology and DEB-TKTD modelling to decipher the physiological mechanisms and trade-offs induced by heavy metals on the reproduction of the sentinel species *Gammarus fossarum*.
+After defending my PhD in December 2024 — which explored the combined effects of temperature variations and physiological constraints on *Daphnia magna* and *Salmo trutta* —, I joined the IMPACT team at the LBBE (Lyon, France) in March 2025 as a postdoctoral researcher. My current work focuses on ecotoxicology and DEB-TKTD modelling to understand the physiological mechanisms and trade-offs induced by heavy metals on the reproduction of the sentinel species *Gammarus fossarum*.
 
 I am always open to scientific discussions, collaborations, or questions regarding DEB theory and ecotoxicological modelling — feel free to reach out!
 
@@ -66,5 +66,5 @@ You can download my updated CV here:
   <p id="message"></p>
 </div>
 
-<script src="{{ '/assets/js/daily-game.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/daily-game2.js' | relative_url }}"></script>
 {:/nomarkdown}

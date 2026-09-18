@@ -24,6 +24,7 @@ You can download my updated CV here:
 
 ## Have you tried to guess the daily word ?
 
+ <!--
 {::nomarkdown}
 <div class="game-card">
   <h3>Word of the day (related to my research !)</h3>
@@ -43,8 +44,10 @@ You can download my updated CV here:
   <p id="message"></p>
 </div>
 
+
 <script src="{{ '/assets/js/daily-game.js' | relative_url }}"></script>
 {:/nomarkdown}
+-->
 
 ## V2 (in prep)
 

@@ -45,3 +45,26 @@ You can download my updated CV here:
 
 <script src="{{ '/assets/js/daily-game.js' | relative_url }}"></script>
 {:/nomarkdown}
+
+## V2 (in prep)
+
+{::nomarkdown}
+<div class="game-card">
+  <h3>Word of the day (related to my research !)</h3>
+  <p class="game-subtitle">
+    <strong>How to play:</strong> Guess the hidden research-related word in 6 tries.<br>
+    • <span style="background: #571487; color: #fff; padding: 1.5px 6px; border-radius: 4px; font-weight: bold; font-size: 0.8rem;">Dark purple</span> : The letter is in the correct spot.<br>
+    • <span style="background: #ff7ef9; color: #fff; padding: 1.5px 6px; border-radius: 4px; font-weight: bold; font-size: 0.8rem;">Bright pink</span> : The letter is in the word, but in the wrong spot.<br>
+    • <span style="background: #fae3ff; color: #21261F; padding: 1.5px 6px; border-radius: 4px; font-weight: bold; font-size: 0.8rem; border: 1px solid #fae3ff;">Light pink</span> : The letter is not in the word.
+  </p>
+
+  <div id="grid"></div>
+
+  <div id="keyboard"></div>
+
+
+  <p id="message"></p>
+</div>
+
+<script src="{{ '/assets/js/daily-game.js' | relative_url }}"></script>
+{:/nomarkdown}

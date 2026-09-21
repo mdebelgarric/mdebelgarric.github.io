@@ -18,7 +18,7 @@ I am always open to scientific discussions, collaborations, or questions regardi
 
 You can download my updated CV here:
 
-<a href="{{ '/cv.pdf' | relative_url }}" target="_blank" class="cv-button">
+<a href="{{ '/CV.pdf' | relative_url }}" target="_blank" class="cv-button">
   📄 Download CV (PDF)
 </a>
 

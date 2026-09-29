@@ -211,7 +211,9 @@
     function initCurrentGuess() {
       currentGuess = new Array(WORD_LENGTH).fill("");
       knownLetters.forEach((letter, i) => {
-        if (letter) currentGuess[i] = letter;
+        if (letter) {
+          currentGuess[i] = letter;
+        }
       });
     }
   
@@ -366,28 +368,39 @@
     
       if (key === "Enter") {
         submitGuess();
+        return;
+      }
     
-      } else if (key === "Backspace") {
-    
+      if (key === "Backspace") {
         for (let i = WORD_LENGTH - 1; i >= 0; i--) {
-          if (currentGuess[i]) {
+          if (currentGuess[i] && !knownLetters[i]) {
             currentGuess[i] = "";
             break;
           }
         }
     
         updateCurrentRowDisplay();
+        return;
+      }
     
-      } else if (/^[a-zA-Z]$/.test(key)) {
+      if (/^[a-zA-Z]$/.test(key)) {
+        const letter = key.toUpperCase();
+        const knownPosition = knownLetters.findIndex(
+          (known, i) => known && currentGuess[i] === known
+        );
     
+        if (knownPosition !== -1) {
+          currentGuess[knownPosition] = letter;
+          updateCurrentRowDisplay();
+          return;
+        }
         const nextEmpty = currentGuess.indexOf("");
-    
+
         if (nextEmpty !== -1) {
-          currentGuess[nextEmpty] = key.toUpperCase();
+          currentGuess[nextEmpty] = letter;
           updateCurrentRowDisplay();
         }
       }
     }
-  
-    document.addEventListener("keydown", (e) => handleKey(e.key));
+
   }

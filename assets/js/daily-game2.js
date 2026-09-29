@@ -84,7 +84,7 @@
   })();
   
   /* =========================================================
-     1) THE WORD LIST — edit freely, lengths can vary.
+     1) THE WORD LIST 
      ========================================================= */
   const WORDS = [
     "MODELLING", "DYNAMIC", "ENERGY", "BUDGET", "MODELS", "THEORY",
@@ -209,23 +209,30 @@
     let currentGuess = new Array(WORD_LENGTH).fill("");
   
     function initCurrentGuess() {
-      currentGuess = knownLetters.map((letter) => letter || "");
+      currentGuess = new Array(WORD_LENGTH).fill("");
+      knownLetters.forEach((letter, i) => {
+        if (letter) currentGuess[i] = letter;
+      });
     }
   
     function updateCurrentRowDisplay() {
       if (state.finished) return;
+    
       const row = gridEl.children[state.guesses.length];
       if (!row) return;
+    
       for (let i = 0; i < WORD_LENGTH; i++) {
         const tile = row.children[i];
         const letter = currentGuess[i] || "";
+    
         tile.textContent = letter;
-        if (knownLetters[i]) {
-          tile.classList.add("correct");
-          tile.classList.remove("filled");
+    
+        tile.classList.remove("correct");
+    
+        if (letter) {
+          tile.classList.add("filled");
         } else {
-          tile.classList.remove("correct");
-          tile.classList.toggle("filled", !!letter);
+          tile.classList.remove("filled");
         }
       }
     }
@@ -356,18 +363,25 @@
   
     function handleKey(key) {
       if (state.finished) return;
+    
       if (key === "Enter") {
         submitGuess();
+    
       } else if (key === "Backspace") {
+    
         for (let i = WORD_LENGTH - 1; i >= 0; i--) {
-          if (currentGuess[i] && !knownLetters[i]) {
+          if (currentGuess[i]) {
             currentGuess[i] = "";
             break;
           }
         }
+    
         updateCurrentRowDisplay();
+    
       } else if (/^[a-zA-Z]$/.test(key)) {
+    
         const nextEmpty = currentGuess.indexOf("");
+    
         if (nextEmpty !== -1) {
           currentGuess[nextEmpty] = key.toUpperCase();
           updateCurrentRowDisplay();

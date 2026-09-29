@@ -207,15 +207,13 @@
     /* ---- letters locked in from earlier correct guesses ---- */
     let knownLetters = new Array(WORD_LENGTH).fill(null);
     let currentGuess = new Array(WORD_LENGTH).fill("");
+    let userEntered = new Array(WORD_LENGTH).fill(false);
   
     function initCurrentGuess() {
-      currentGuess = new Array(WORD_LENGTH).fill("");
-      knownLetters.forEach((letter, i) => {
-        if (letter) {
-          currentGuess[i] = letter;
-        }
-      });
+      currentGuess = knownLetters.map((letter) => letter || "");
+      userEntered = new Array(WORD_LENGTH).fill(false);
     }
+    
   
     function updateCurrentRowDisplay() {
       if (state.finished) return;
@@ -225,7 +223,10 @@
     
       for (let i = 0; i < WORD_LENGTH; i++) {
         const tile = row.children[i];
-        const letter = currentGuess[i] || "";
+    
+        const letter = userEntered[i]
+          ? currentGuess[i]
+          : (knownLetters[i] || "");
     
         tile.textContent = letter;
     
@@ -238,6 +239,7 @@
         }
       }
     }
+    
   
     function updateActiveRow() {
       Array.from(gridEl.children).forEach((row, i) => {
@@ -330,7 +332,12 @@
         setMessage("Fill in all the letters before submitting.");
         return;
       }
-      const guess = normalize(currentGuess.join(""));
+      const guess = normalize(
+        currentGuess.map((letter, i) => {
+          return userEntered[i] ? letter : (knownLetters[i] || "");
+        }).join("")
+      );
+      
       const rowIndex = state.guesses.length;
       const result = renderGuess(guess, rowIndex);
       updateKeyboard(guess, result);
@@ -373,8 +380,9 @@
     
       if (key === "Backspace") {
         for (let i = WORD_LENGTH - 1; i >= 0; i--) {
-          if (currentGuess[i] && !knownLetters[i]) {
+          if (userEntered[i]) {
             currentGuess[i] = "";
+            userEntered[i] = false;
             break;
           }
         }
@@ -385,22 +393,16 @@
     
       if (/^[a-zA-Z]$/.test(key)) {
         const letter = key.toUpperCase();
-        const knownPosition = knownLetters.findIndex(
-          (known, i) => known && currentGuess[i] === known
-        );
     
-        if (knownPosition !== -1) {
-          currentGuess[knownPosition] = letter;
-          updateCurrentRowDisplay();
-          return;
-        }
-        const nextEmpty = currentGuess.indexOf("");
-
-        if (nextEmpty !== -1) {
-          currentGuess[nextEmpty] = letter;
+        const nextPosition = userEntered.findIndex((entered) => !entered);
+    
+        if (nextPosition !== -1) {
+          currentGuess[nextPosition] = letter;
+          userEntered[nextPosition] = true;
           updateCurrentRowDisplay();
         }
       }
     }
+    
 
   }

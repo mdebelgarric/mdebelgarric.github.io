@@ -16,7 +16,7 @@ After defending my PhD in December 2024 — which explored the combined effects 
 
 I am always open to scientific discussions, collaborations, or questions regarding DEB theory and ecotoxicological modelling — feel free to reach out!
 
-You can download my updated CV here:
+You can download my updated CV here: 
 
 <a href="{{ '/CV_Debelgarric.pdf' | relative_url }}" target="_blank" class="cv-button">
   📄 Download CV (PDF)

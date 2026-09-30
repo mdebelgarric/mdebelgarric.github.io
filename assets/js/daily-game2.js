@@ -194,24 +194,36 @@
     function renderGuess(guess, rowIndex) {
       const result = evaluateGuess(guess);
       const row = gridEl.children[rowIndex];
-      guess.split("").forEach((letter, i) => {
+      for (let i = 0; i < WORD_LENGTH; i++) {
         const tile = row.children[i];
-        tile.textContent = letter;
-        tile.classList.remove("filled");
-        tile.classList.add(result[i], "pop");
+        if (knownLetters[i]) {
+          // déjà résolu à un essai précédent : on l'affiche toujours,
+          // quelle que soit la lettre tapée cette fois-ci à cette position.
+          tile.textContent = knownLetters[i];
+          tile.classList.remove("filled", "present", "absent");
+          tile.classList.add("correct");
+        } else {
+          tile.textContent = guess[i];
+          tile.classList.remove("filled");
+          tile.classList.add(result[i]);
+          if (result[i] === "correct") knownLetters[i] = guess[i];
+        }
+        tile.classList.add("pop");
         setTimeout(() => tile.classList.remove("pop"), 150);
-      });
+      }
       return result;
     }
   
     /* ---- letters locked in from earlier correct guesses ---- */
     let knownLetters = new Array(WORD_LENGTH).fill(null);
     let currentGuess = new Array(WORD_LENGTH).fill("");
-  
+    
+    /* ---- letters guessed ---- */
     function initCurrentGuess() {
-      currentGuess = knownLetters.map((letter) => letter || "");
+      currentGuess = new Array(WORD_LENGTH).fill("");
     }
-  
+    
+    /* ---- write in the row w/out locked letter ---- */
     function updateCurrentRowDisplay() {
       if (state.finished) return;
       const row = gridEl.children[state.guesses.length];
@@ -220,13 +232,8 @@
         const tile = row.children[i];
         const letter = currentGuess[i] || "";
         tile.textContent = letter;
-        if (knownLetters[i]) {
-          tile.classList.add("correct");
-          tile.classList.remove("filled");
-        } else {
-          tile.classList.remove("correct");
-          tile.classList.toggle("filled", !!letter);
-        }
+        tile.classList.remove("correct", "present", "absent");
+        tile.classList.toggle("filled", !!letter);
       }
     }
   
@@ -287,9 +294,7 @@
       state.guesses.forEach((guess, i) => {
         const result = renderGuess(guess, i);
         updateKeyboard(guess, result);
-        result.forEach((status, pos) => {
-          if (status === "correct") knownLetters[pos] = guess[pos];
-        });
+        
       });
     }
     renderAllGuesses();
@@ -325,9 +330,6 @@
       const rowIndex = state.guesses.length;
       const result = renderGuess(guess, rowIndex);
       updateKeyboard(guess, result);
-      result.forEach((status, pos) => {
-        if (status === "correct") knownLetters[pos] = guess[pos];
-      });
       state.guesses.push(guess);
   
       if (guess === WORD) {
@@ -360,7 +362,7 @@
         submitGuess();
       } else if (key === "Backspace") {
         for (let i = WORD_LENGTH - 1; i >= 0; i--) {
-          if (currentGuess[i] && !knownLetters[i]) {
+          if (currentGuess[i]) {
             currentGuess[i] = "";
             break;
           }
@@ -374,6 +376,7 @@
         }
       }
     }
-  
+    
     document.addEventListener("keydown", (e) => handleKey(e.key));
+
   }
